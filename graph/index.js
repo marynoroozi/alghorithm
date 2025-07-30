@@ -10,6 +10,10 @@ graph["Matin"] = [];
 graph["Zahra"] = [];
 graph["Aida"] = [];
 
+function isDoctor(person) {
+  return person.startsWith("Z");
+}
+
 let searchQueue = graph["you"];
 
 let visited = new Set();
@@ -23,7 +27,7 @@ while (searchQueue.length !== 0) {
     visited.add(person);
     console.log(visited, "visited");
 
-    if (person.startsWith("Z")) {
+    if (isDoctor(person)) {
       console.log(`Ok, ${person} is a Doctor`);
       return;
     } else {
