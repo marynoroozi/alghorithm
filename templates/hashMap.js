@@ -18,7 +18,7 @@ for (let num of nums) {
 }
 
 // =======================
-// ✅ 1. Hash Map in Set Difference with Distinct Elements
+// ✅ 2. Hash Map in Set Difference with Distinct Elements
 // هر وقت سوال می‌گه: «عناصر منحصر‌به‌فردی که در یکی هست و در دیگری نیست»
 // Used in: Two Arrays Difference, Intersection of Two Arrays, Symmetric Difference,Remove Duplicates
 // =======================
@@ -28,3 +28,19 @@ const set2 = new Set(nums2);
 const diff1 = [...set1].filter((x) => !set2.has(x));
 const diff2 = [...set2].filter((x) => !set1.has(x));
 return [diff1, diff2];
+
+// =======================
+// ✅ 3. Hash Map in Frequency Count + Uniqueness Check
+// الگوی شمارش تکرار و بررسی یکتا بودن با استفاده از ترکیب Map + Set
+// Used in: Unique Number of Occurrences, Top K Frequent Elements, Majority Element,Group Anagrams (Map values → Array → بررسی uniqueness یا مرتب‌سازی)
+// =======================
+
+const map = new Map();
+for (let num of arr) {
+  map.set(num, (map.get(num) || 0) + 1);
+}
+
+const counts = Array.from(map.values());
+const set = new Set(counts);
+
+return set.size === counts.length;
