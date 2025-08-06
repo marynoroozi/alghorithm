@@ -44,3 +44,29 @@ const counts = Array.from(map.values());
 const set = new Set(counts);
 
 return set.size === counts.length;
+
+// =======================
+// ✅ 3. Hash Map in Matrix symmetry problems
+// =======================
+
+function arrayToKey(arr) {
+  return arr.join(",");
+}
+
+const rowMap = new Map();
+for (const row of grid) {
+  const key = arrayToKey(row);
+  rowMap.set(key, (rowMap.get(key) || 0) + 1);
+}
+
+let count = 0;
+for (let col = 0; col < grid.length; col++) {
+  const colArr = [];
+  for (let row = 0; row < grid.length; row++) {
+    colArr.push(grid[row][col]);
+  }
+  const key = arrayToKey(colArr);
+  if (rowMap.has(key)) {
+    count += rowMap.get(key);
+  }
+}
