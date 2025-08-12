@@ -19,20 +19,21 @@ function arrayToList(arr) {
   return dummy.next;
 }
 var oddEvenList = function (head) {
-  let fast = head;
-  let slow = head.next;
-  while (fast !== null) {
-    if (fast.next === null) {
-      while (slow !== null && slow.next !== null) {
-        fast.next = slow;
-        slow.next = slow.next.next;
-        slow = slow.next;
-      }
-    } else {
-      fast.next = fast.next.next;
-      fast = fast.next;
-    }
+  if (!head || !head.next) return head; // لیست خالی یا فقط یک نود
+
+  let odd = head; // شروع لیست فرد
+  let even = head.next; // شروع لیست زوج
+  let evenHead = even; // ذخیره شروع لیست زوج برای اتصال بعدا
+
+  while (even && even.next) {
+    odd.next = even.next; // پرش به نود بعدی فرد
+    odd = odd.next; // حرکت به نود فرد جدید
+
+    even.next = odd.next; // پرش به نود بعدی زوج
+    even = even.next; // حرکت به نود زوج جدید
   }
+
+  odd.next = evenHead; // وصل کردن آخرین نود فرد به ابتدای لیست زوج
   return head;
 };
 
