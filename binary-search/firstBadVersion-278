@@ -1,0 +1,39 @@
+/**
+ * Definition for isBadVersion()
+ *
+ * @param {integer} version number
+ * @return {boolean} whether the version is bad
+ * isBadVersion = function(version) {
+ *     ...
+ * };
+ */
+
+/**
+ * @param {function} isBadVersion()
+ * @return {function}
+ */
+var solution = function (isBadVersion) {
+  /**
+   * @param {integer} n Total versions
+   * @return {integer} The first bad version
+   */
+  return function (n) {
+    let low = 1;
+    let high = n;
+
+    while (low < high) {
+      const mid = Math.floor((low + high) / 2);
+      const badVersion = isBadVersion(mid);
+
+      if (badVersion) {
+        high = mid;
+      } else {
+        low = mid + 1;
+      }
+    }
+    return low;
+  };
+};
+
+// Note: this is a higher order function and it uses the Closure cincept here
+// Note: You should make sure to return the first real bad version and not the first version that you find.So, when you find a bad version you should go and check the previous versions to see if they were also corrupted or not!
