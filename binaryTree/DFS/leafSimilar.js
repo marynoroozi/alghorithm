@@ -38,7 +38,7 @@ var leafSimilar = function (root1, root2) {
 
 //Recursion
 var findLeafs = (root, leafs) => {
-  if (!root) return; // اگر درخت خالیه
+  if (!root) return 0; // اگر درخت خالیه
   if (!root.left && !root.right) {
     leafs.push(root.val); // برگ پیدا شد
   }
