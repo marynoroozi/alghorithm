@@ -8,9 +8,27 @@
 ## String
 |  |
 | ------- |
+| [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
 | [0647-palindromic-substrings](https://github.com/marynoroozi/alghorithm/tree/master/0647-palindromic-substrings) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
 | [0647-palindromic-substrings](https://github.com/marynoroozi/alghorithm/tree/master/0647-palindromic-substrings) |
+## Array
+|  |
+| ------- |
+| [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
+## Hash Table
+|  |
+| ------- |
+| [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
