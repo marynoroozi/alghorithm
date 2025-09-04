@@ -3,22 +3,32 @@
  * @return {number}
  */
 var countSubstrings = function(s) {
-        let count = 0
-    const len = s.length
-    for(let i=0; i<len; i++){
-        let l=i
-        let r = i
-        while(l>=0 && r<len && s[l]===s[r]){
+    let count = 0
+    let matrix = []
+    for(let char of s){
+        matrix.push(new Array(s.length).fill(0))
+    }
+    // let matrix = Array.from({length: s.length}, () => new Array(s.length).fill(0));
+    
+    for(let i=0; i<s.length; i++){
+        //One character length palindrom
+        matrix[i][i]=1
+        count++
+        //Two character length palindrom
+        if(i+1<s.length && s[i]===s[i+1]){
+            matrix[i][i+1]=1
             count++
-            l -= 1
-            r += 1
         }
-        let left=i
-        let right=i+1
-        while(left>=0 && right<len && s[left]===s[right]){
-            count++
-            left -= 1
-            right += 1
+    }
+    //More than three character length palindrom
+    for(let len=3; len<=s.length; len++){
+        let row = 0
+        let col = len-1
+        for(col, row; col<s.length; col++, row++){
+            if(s[col]===s[row] && matrix[row+1][col-1]===1){
+                matrix[row][col]=1
+                count++
+            }
         }
     }
 
