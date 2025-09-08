@@ -5,32 +5,34 @@
 var updateMatrix = function(mat) {
     const m = mat.length
     const n = mat[0].length
-    let queue= []
+
     for(let i=0; i<m; i++){
         for(let j=0; j<n; j++){
-            if(mat[i][j]===0){
-                queue.push([i,j])
-            } else{
+            if(mat[i][j] !==0){
                 mat[i][j]=Infinity
             }
         }
     }
-    
-    while(queue.length){
-        const cell = queue.shift() //[0,0]
-        const row = cell[0]
-        const col = cell[1]
-        const checkList = [[row-1, col], [row+1, col], [row, col-1], [row, col+1]] 
-        for(let item of checkList){
-            if(item[0]>=0 && item[0]<m && item[1]>=0 && item[1]<n && mat[item[0]][item[1]]> mat[row][col]){
-                mat[item[0]][item[1]] = mat[row][col] + 1
-                queue.push([item[0], item[1]])
-            }
+    for(let i = 0; i<m; i++){
+        for(let j=0; j<n; j++){
+            if(i>0) mat[i][j] = Math.min(mat[i][j], mat[i-1][j]+1)
+            if(j>0) mat[i][j] = Math.min(mat[i][j], mat[i][j-1]+1)
         }
     }
     
+    for(let i = m-1; i>=0; i--){
+        for(let j=n-1; j>=0; j--){
+            if(i<m-1) mat[i][j] = Math.min(mat[i][j], mat[i+1][j]+1)
+            if(j<n-1) mat[i][j] = Math.min(mat[i][j], mat[i][j+1]+1)
+        }
+    }
     return mat;
 };
+
+// mat (m*n) 3*4
+// [0 1 1 0]           [0 1 1 0]       [0     inf   inf   0]
+// [1 1 0 1]   =>      [1 1 0 1]       [inf   inf    0  inf]
+// [1 1 1 0]           [2 2 1 0]       [inf   inf    inf  0]
 
 // for(m[i][j]){
 //     if(m[i][j]===0) {
