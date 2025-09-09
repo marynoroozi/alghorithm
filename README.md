@@ -9,6 +9,7 @@
 |  |
 | ------- |
 | [0079-word-search](https://github.com/marynoroozi/alghorithm/tree/master/0079-word-search) |
+| [0093-restore-ip-addresses](https://github.com/marynoroozi/alghorithm/tree/master/0093-restore-ip-addresses) |
 | [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
 | [0647-palindromic-substrings](https://github.com/marynoroozi/alghorithm/tree/master/0647-palindromic-substrings) |
 ## Dynamic Programming
@@ -51,6 +52,7 @@
 |  |
 | ------- |
 | [0079-word-search](https://github.com/marynoroozi/alghorithm/tree/master/0079-word-search) |
+| [0093-restore-ip-addresses](https://github.com/marynoroozi/alghorithm/tree/master/0093-restore-ip-addresses) |
 ## Depth-First Search
 |  |
 | ------- |
