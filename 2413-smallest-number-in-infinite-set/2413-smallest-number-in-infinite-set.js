@@ -1,26 +1,31 @@
-var SmallestInfiniteSet = function() {
-    this.heap = [];
-    this.min_num = 1;
-};
+class SmallestInfiniteSet {
+  constructor() {
+    this.current = 1;
+    this.minHeap = new MinPriorityQueue();
+    this.set = new Set();
+  }
 
-/**
- * @return {number}
- */
-SmallestInfiniteSet.prototype.popSmallest = function() {
-    if (this.heap.length > 0) {
-        return this.heap.shift();
+  popSmallest() {
+    if (!this.minHeap.isEmpty()) {
+      let smallest = this.minHeap.dequeue();
+      this.set.delete(smallest);
+      return smallest;
     }
-    this.min_num += 1;
-    return this.min_num - 1;    
-};
+    return this.current++;
+  }
+
+  addBack(num) {
+    if (num < this.current && !this.set.has(num)) {
+      this.minHeap.enqueue(num);
+      this.set.add(num);
+    }
+  }
+}
+
 
 /** 
- * @param {number} num
- * @return {void}
+ * Your SmallestInfiniteSet object will be instantiated and called as such:
+ * var obj = new SmallestInfiniteSet()
+ * var param_1 = obj.popSmallest()
+ * obj.addBack(num)
  */
-SmallestInfiniteSet.prototype.addBack = function(num) {
-    if (this.min_num > num && this.heap.indexOf(num) === -1) {
-        this.heap.push(num);
-        this.heap.sort((a, b) => a - b);
-    }
-};
