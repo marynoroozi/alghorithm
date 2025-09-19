@@ -4,19 +4,15 @@
  * @return {number}
  */
 function findKthLargest(nums, k) {
-  // تابع بازگشتی Quick Select
   function quickSelect(left, right, kSmallest) {
-    // حالت پایه: اگه بازه تک عنصر باشه
-    if (left === right) return nums[left];
+    if (left === right) return nums[left]; // حالت پایه: اگه بازه تک عنصر باشه
 
-    // 🎯 pivot رو انتخاب می‌کنیم (اینجا: آخر بازه)
-    let pivot = nums[right];
-    let pIndex = left;
+    let pivot = nums[right]; // pivot رو انتخاب می‌کنیم (اینجا: آخر بازه)
+    let pIndex = left; //جای بعدی که باید یه عدد بزرگتر از pivot بذاریم
 
-    // ✅ همه‌ی اعداد بزرگتر از pivot رو میاریم سمت چپ
+    // همه‌ی اعداد بزرگتر از pivot رو میاریم سمت چپ
     for (let i = left; i < right; i++) {
       if (nums[i] > pivot) {
-        // ">" چون kth بزرگترین رو می‌خوایم
         [nums[i], nums[pIndex]] = [nums[pIndex], nums[i]];
         pIndex++;
       }
@@ -32,6 +28,6 @@ function findKthLargest(nums, k) {
     else return quickSelect(pIndex + 1, right, kSmallest); // بگرد سمت راست
   }
 
-  // چون k از ۱ شروع میشه و ایندکس‌ها از ۰ → k-1
+  // چون ایندکس‌ها از صفر شروع میشه  => k میگیم k-1 پس بجای
   return quickSelect(0, nums.length - 1, k - 1);
 }
