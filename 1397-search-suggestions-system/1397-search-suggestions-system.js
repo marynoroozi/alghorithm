@@ -4,45 +4,29 @@
  * @return {string[][]}
  */
 var suggestedProducts = function(products, searchWord) {
-    products.sort(); // برای lexicographic order
-    
-    // ساختار نود Trie
-    class TrieNode {
-        constructor() {
-            this.children = {};   // کاراکتر -> نود بعدی
-            this.suggestions = []; // حداکثر 3 محصول
-        }
-    }
-    
-    // ریشه
-    let root = new TrieNode();
-    
-    // Insert کردن محصولات
-    for (let product of products) {
-        let node = root;
-        for (let char of product) {
-            if (!node.children[char]) {
-                node.children[char] = new TrieNode();
-            }
-            node = node.children[char];
-            if (node.suggestions.length < 3) {
-                node.suggestions.push(product);
-            }
-        }
-    }
-    
-    // حالا search
+    products.sort();
     let result = [];
-    let node = root;
-    for (let char of searchWord) {
-        if (node && node.children[char]) {
-            node = node.children[char];
-            result.push(node.suggestions);
-        } else {
-            // از اینجا به بعد دیگه هیچ prefix پیدا نمی‌شه
-            node = null;
-            result.push([]);
+    
+    function lowerBound(arr, target) {
+        let left = 0, right = arr.length;
+        while (left < right) {
+            let mid = Math.floor((left + right) / 2);
+            if (arr[mid] < target) left = mid + 1;
+            else right = mid;
         }
+        return left;
+    }
+    
+    let prefix = "";
+    for (let char of searchWord) {
+        prefix += char;
+        
+        // شروع و پایان بازه
+        let start = lowerBound(products, prefix);
+        let end   = lowerBound(products, prefix + '{'); // '{' بعد از 'z'
+        
+        // slice می‌کنیم
+        result.push(products.slice(start, Math.min(start + 3, end)));
     }
     
     return result;
