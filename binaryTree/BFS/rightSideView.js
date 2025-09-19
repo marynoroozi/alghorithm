@@ -11,7 +11,8 @@
  * @return {number[]}
  */
 var rightSideView = function (root) {
-  if (!root) return []; // حتما اول اینو بذار، چون اگه ریشه null باشه باید []
+  // حتما اول اینو بذار، چون اگه ریشه null باشه باید []
+  if (!root) return [];
 
   let queue = [root];
   let res = [];

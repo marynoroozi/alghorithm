@@ -11,9 +11,10 @@
  * @return {number}
  */
 
-// We should keep track of which size our node is coming from (left or Right)
+// We should keep track of which side our node is coming from (left or Right)
 // sometimes we need to keep and pass more than one or two value with our node.
-// We know we should use DFS (BCZ we are going to go through trees deeply) and recursion (BCZ one scenario is repeating)
+// We know we should use DFS (BCZ we are going to go through trees deeply)
+// and recursion (BCZ one scenario is repeating)
 var longestZigZag = function (root) {
   let longestPath = 0;
 
@@ -21,8 +22,8 @@ var longestZigZag = function (root) {
     if (!node) return 0; //base case
     longestPath = Math.max(longestPath, curr);
     if (left) {
-      dfs(node.left, true, 1);
-      dfs(node.right, false, curr + 1);
+      dfs(node.left, true, 1); // هم‌جهت → ریست
+      dfs(node.right, false, curr + 1); // خلاف جهت → +1
     } else {
       dfs(node.left, true, curr + 1);
       dfs(node.right, false, 1);
