@@ -1,26 +1,32 @@
-class SmallestInfiniteSet {
-  constructor() {
-    this.current = 1;
-    this.minHeap = new MinPriorityQueue();
-    this.set = new Set();
-  }
+var SmallestInfiniteSet = function() {
+    this.curr = 1;        // عدد بعدی که هنوز مصرف نشده
+    this.back = [];       // آرایه‌ی مرتب برای عددهای addBack شده
+    this.set = new Set(); // برای جلوگیری از تکرار
+};
 
-  popSmallest() {
-    if (!this.minHeap.isEmpty()) {
-      let smallest = this.minHeap.dequeue();
-      this.set.delete(smallest);
-      return smallest;
+/**
+ * @return {number}
+ */
+SmallestInfiniteSet.prototype.popSmallest = function() {
+    if (this.back.length > 0) {
+        let smallest = this.back.shift(); // کوچیک‌ترین عدد از آرایه
+        this.set.delete(smallest);
+        return smallest;
     }
-    return this.current++;
-  }
+    return this.curr++;
+};
 
-  addBack(num) {
-    if (num < this.current && !this.set.has(num)) {
-      this.minHeap.enqueue(num);
-      this.set.add(num);
+/** 
+ * @param {number} num
+ * @return {void}
+ */
+SmallestInfiniteSet.prototype.addBack = function(num) {
+    if (num < this.curr && !this.set.has(num)) {
+        this.back.push(num);
+        this.back.sort((a, b) => a - b); // مرتب نگه داشتن
+        this.set.add(num);
     }
-  }
-}
+};
 
 
 /** 
