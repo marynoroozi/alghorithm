@@ -1,19 +1,17 @@
 var SmallestInfiniteSet = function() {
-    this.curr = 1;        // عدد بعدی که هنوز مصرف نشده
-    this.back = [];       // آرایه‌ی مرتب برای عددهای addBack شده
-    this.set = new Set(); // برای جلوگیری از تکرار
+    this.heap = [];
+    this.min_num = 1;
 };
 
 /**
  * @return {number}
  */
 SmallestInfiniteSet.prototype.popSmallest = function() {
-    if (this.back.length > 0) {
-        let smallest = this.back.shift(); // کوچیک‌ترین عدد از آرایه
-        this.set.delete(smallest);
-        return smallest;
+    if (this.heap.length > 0) {
+        return this.heap.shift();
     }
-    return this.curr++;
+    this.min_num += 1;
+    return this.min_num - 1;    
 };
 
 /** 
@@ -21,17 +19,8 @@ SmallestInfiniteSet.prototype.popSmallest = function() {
  * @return {void}
  */
 SmallestInfiniteSet.prototype.addBack = function(num) {
-    if (num < this.curr && !this.set.has(num)) {
-        this.back.push(num);
-        this.back.sort((a, b) => a - b); // مرتب نگه داشتن
-        this.set.add(num);
+    if (this.min_num > num && this.heap.indexOf(num) === -1) {
+        this.heap.push(num);
+        this.heap.sort((a, b) => a - b);
     }
 };
-
-
-/** 
- * Your SmallestInfiniteSet object will be instantiated and called as such:
- * var obj = new SmallestInfiniteSet()
- * var param_1 = obj.popSmallest()
- * obj.addBack(num)
- */
