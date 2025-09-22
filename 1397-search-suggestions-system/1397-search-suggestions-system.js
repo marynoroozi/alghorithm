@@ -3,25 +3,38 @@
  * @param {string} searchWord
  * @return {string[][]}
  */
-var suggestedProducts = function (products, searchWord) {
-  products.sort(); // O(nlogn)
-  let l = 0, r = products.length - 1;
-  let result = [];
-  
-  for (let i = 0; i < searchWord.length; i++) {
-    let ch = searchWord[i];
-    
-    while (l <= r && (products[l].length <= i || products[l][i] !== ch)) l++;
-    while (l <= r && (products[r].length <= i || products[r][i] !== ch)) r--;
-    
-    let suggestions = [];
-    let size = Math.min(3, r - l + 1); // correct count
-    for (let j = 0; j < size; j++) {
-      suggestions.push(products[l + j]);
+var suggestedProducts = function(products, searchWord) {
+    products.sort();  // اول مرتب می‌کنیم
+    let result = [];
+
+    // تابع کمکی برای پیدا کردن اولین index با binary search
+    function lowerBound(arr, target) {
+        let left = 0, right = arr.length;
+        while (left <= right) {
+            let mid = Math.floor((left + right) / 2);
+            if (arr[mid] < target) left = mid + 1;
+            else right = mid-1;
+        }
+        return left;
     }
-    
-    result.push(suggestions);
-  }
-  
-  return result;
+
+    let prefix = "";
+    for (let char of searchWord) {
+        prefix += char;
+
+        // پیدا کردن اولین کلمه >= prefix
+        let i = lowerBound(products, prefix);
+
+        // جمع کردن حداکثر 3 تا محصولی که واقعا prefix دارن
+        let suggestions = [];
+        for (let j = i; j < Math.min(i + 3, products.length); j++) {
+            if (products[j].startsWith(prefix)) {
+                suggestions.push(products[j]);
+            } else break;
+        }
+
+        result.push(suggestions);
+    }
+
+    return result;
 };
