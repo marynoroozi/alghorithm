@@ -7,7 +7,7 @@
 var maxScore = function(nums1, nums2, k) {
     let result = 0;
     let totalSum = 0;
-    let heap = new MinPriorityQueue(); // بدون priority
+    let heap = new MinPriorityQueue();
 
     const merged = nums1.map((nums1Val, i) => [nums2[i], nums1Val]);
     merged.sort((a, b) => b[0] - a[0]);
