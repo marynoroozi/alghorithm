@@ -30,6 +30,7 @@
 | [0322-coin-change](https://github.com/marynoroozi/alghorithm/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/marynoroozi/alghorithm/tree/master/0542-01-matrix) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
+| [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
 ## Hash Table
 |  |
 | ------- |
@@ -89,12 +90,14 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
+| [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2413-smallest-number-in-infinite-set](https://github.com/marynoroozi/alghorithm/tree/master/2413-smallest-number-in-infinite-set) |
+| [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
 ## Quickselect
 |  |
 | ------- |
@@ -111,4 +114,8 @@
 |  |
 | ------- |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
+## Greedy
+|  |
+| ------- |
+| [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
 <!---LeetCode Topics End-->
