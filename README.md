@@ -25,6 +25,7 @@
 ## Array
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/marynoroozi/alghorithm/tree/master/0056-merge-intervals) |
 | [0079-word-search](https://github.com/marynoroozi/alghorithm/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
@@ -90,6 +91,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/marynoroozi/alghorithm/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
