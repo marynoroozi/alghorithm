@@ -4,6 +4,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
 | [0647-palindromic-substrings](https://github.com/marynoroozi/alghorithm/tree/master/0647-palindromic-substrings) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/marynoroozi/alghorithm/tree/master/2553-total-cost-to-hire-k-workers) |
 ## String
@@ -96,12 +97,14 @@
 | ------- |
 | [0056-merge-intervals](https://github.com/marynoroozi/alghorithm/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2413-smallest-number-in-infinite-set](https://github.com/marynoroozi/alghorithm/tree/master/2413-smallest-number-in-infinite-set) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/marynoroozi/alghorithm/tree/master/2553-total-cost-to-hire-k-workers) |
@@ -113,6 +116,7 @@
 ## Design
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
 | [2413-smallest-number-in-infinite-set](https://github.com/marynoroozi/alghorithm/tree/master/2413-smallest-number-in-infinite-set) |
 ## Ordered Set
 |  |
@@ -130,4 +134,8 @@
 |  |
 | ------- |
 | [2553-total-cost-to-hire-k-workers](https://github.com/marynoroozi/alghorithm/tree/master/2553-total-cost-to-hire-k-workers) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
