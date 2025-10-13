@@ -33,6 +33,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/marynoroozi/alghorithm/tree/master/0216-combination-sum-iii) |
 | [0322-coin-change](https://github.com/marynoroozi/alghorithm/tree/master/0322-coin-change) |
+| [0502-ipo](https://github.com/marynoroozi/alghorithm/tree/master/0502-ipo) |
 | [0542-01-matrix](https://github.com/marynoroozi/alghorithm/tree/master/0542-01-matrix) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/marynoroozi/alghorithm/tree/master/2553-total-cost-to-hire-k-workers) |
@@ -100,6 +101,7 @@
 | [0056-merge-intervals](https://github.com/marynoroozi/alghorithm/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
+| [0502-ipo](https://github.com/marynoroozi/alghorithm/tree/master/0502-ipo) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
 ## Heap (Priority Queue)
@@ -107,6 +109,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
+| [0502-ipo](https://github.com/marynoroozi/alghorithm/tree/master/0502-ipo) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2413-smallest-number-in-infinite-set](https://github.com/marynoroozi/alghorithm/tree/master/2413-smallest-number-in-infinite-set) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/marynoroozi/alghorithm/tree/master/2553-total-cost-to-hire-k-workers) |
@@ -131,6 +134,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0502-ipo](https://github.com/marynoroozi/alghorithm/tree/master/0502-ipo) |
 | [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
 ## Simulation
 |  |
