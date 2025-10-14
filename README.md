@@ -33,6 +33,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/marynoroozi/alghorithm/tree/master/0216-combination-sum-iii) |
 | [0322-coin-change](https://github.com/marynoroozi/alghorithm/tree/master/0322-coin-change) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/marynoroozi/alghorithm/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/marynoroozi/alghorithm/tree/master/0502-ipo) |
 | [0542-01-matrix](https://github.com/marynoroozi/alghorithm/tree/master/0542-01-matrix) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
@@ -109,6 +110,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/marynoroozi/alghorithm/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/marynoroozi/alghorithm/tree/master/0502-ipo) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2413-smallest-number-in-infinite-set](https://github.com/marynoroozi/alghorithm/tree/master/2413-smallest-number-in-infinite-set) |
