@@ -36,6 +36,7 @@
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/marynoroozi/alghorithm/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/marynoroozi/alghorithm/tree/master/0502-ipo) |
 | [0542-01-matrix](https://github.com/marynoroozi/alghorithm/tree/master/0542-01-matrix) |
+| [1014-k-closest-points-to-origin](https://github.com/marynoroozi/alghorithm/tree/master/1014-k-closest-points-to-origin) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/marynoroozi/alghorithm/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
@@ -96,6 +97,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
+| [1014-k-closest-points-to-origin](https://github.com/marynoroozi/alghorithm/tree/master/1014-k-closest-points-to-origin) |
 ## Sorting
 |  |
 | ------- |
@@ -103,6 +105,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
 | [0502-ipo](https://github.com/marynoroozi/alghorithm/tree/master/0502-ipo) |
+| [1014-k-closest-points-to-origin](https://github.com/marynoroozi/alghorithm/tree/master/1014-k-closest-points-to-origin) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
 ## Heap (Priority Queue)
@@ -112,6 +115,7 @@
 | [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/marynoroozi/alghorithm/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/marynoroozi/alghorithm/tree/master/0502-ipo) |
+| [1014-k-closest-points-to-origin](https://github.com/marynoroozi/alghorithm/tree/master/1014-k-closest-points-to-origin) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2413-smallest-number-in-infinite-set](https://github.com/marynoroozi/alghorithm/tree/master/2413-smallest-number-in-infinite-set) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/marynoroozi/alghorithm/tree/master/2553-total-cost-to-hire-k-workers) |
@@ -120,6 +124,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
+| [1014-k-closest-points-to-origin](https://github.com/marynoroozi/alghorithm/tree/master/1014-k-closest-points-to-origin) |
 ## Design
 |  |
 | ------- |
@@ -146,4 +151,12 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
+## Math
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/marynoroozi/alghorithm/tree/master/1014-k-closest-points-to-origin) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/marynoroozi/alghorithm/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
