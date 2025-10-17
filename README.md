@@ -27,6 +27,7 @@
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/marynoroozi/alghorithm/tree/master/0033-search-in-rotated-sorted-array) |
 | [0056-merge-intervals](https://github.com/marynoroozi/alghorithm/tree/master/0056-merge-intervals) |
 | [0079-word-search](https://github.com/marynoroozi/alghorithm/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
@@ -140,6 +141,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/marynoroozi/alghorithm/tree/master/0033-search-in-rotated-sorted-array) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 ## Greedy
 |  |
