@@ -4,33 +4,29 @@
  * @return {boolean}
  */
 var canFinish = function(numCourses, prerequisites) {
-    const inDegree = Array(numCourses).fill(0)  // تعداد پیش‌نیاز برای هر درس
-    const adjList = new Map()                      // گراف برای نگهداری روابط
+    const prereqs = new Map()
 
-    // گراف و inDegree رو می‌سازیم
-    for(let [a,b] of prerequisites){
-        inDegree[a]++                           // چون a باید بعد از b انجام بشه
-        if(!adjList.has(b)) adjList.set(b,[])
-        adjList.get(b).push(a)
+    for([course, pre] of prerequisites){
+        if(!prereqs.has(course)) prereqs.set(course, [])
+        prereqs.get(course).push(pre)
     }
 
-    const queue = []                         // صف برای درس‌هایی که پیش‌نیاز ندارن
-    for(let i=0; i<numCourses; i++){
-        if(inDegree[i]===0) queue.push(i)
-    }
+    const seen = new Set()
 
-    let count = 0                        // شمارنده‌ی درس‌هایی که تونستیم بگذرونیم
-     // الگوریتم BFS
-    while(queue.length){
-        const course = queue.shift()
-        count++
-        // برای هر درسی که به این درس وابسته است:
-        if(adjList.has(course)){
-            for(let next of adjList.get(course)){
-                inDegree[next]--                     // یکی از پیش‌نیازهاش حذف شد
-                if(inDegree[next]===0) queue.push(next)
-            }
+    function hasCycle(course){
+        if(seen.has(course)) return true
+
+        seen.add(course)
+        for(const pre of prereqs.get(course) || []){
+            if(hasCycle(pre)) return true
         }
+        seen.delete(course)
+        prereqs.set(course,[])
+        return false
     }
-    return count === numCourses              // اگه همه‌ی درس‌ها گذرونده شدن، true
+
+    for(let course=0; course<numCourses; course++){
+        if(hasCycle(course)) return false
+    }
+    return true
 };
