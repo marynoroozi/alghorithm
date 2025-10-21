@@ -29,6 +29,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/marynoroozi/alghorithm/tree/master/0033-search-in-rotated-sorted-array) |
+| [0046-permutations](https://github.com/marynoroozi/alghorithm/tree/master/0046-permutations) |
 | [0056-merge-intervals](https://github.com/marynoroozi/alghorithm/tree/master/0056-merge-intervals) |
 | [0079-word-search](https://github.com/marynoroozi/alghorithm/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
@@ -76,6 +77,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/marynoroozi/alghorithm/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0046-permutations](https://github.com/marynoroozi/alghorithm/tree/master/0046-permutations) |
 | [0079-word-search](https://github.com/marynoroozi/alghorithm/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/marynoroozi/alghorithm/tree/master/0093-restore-ip-addresses) |
 | [0216-combination-sum-iii](https://github.com/marynoroozi/alghorithm/tree/master/0216-combination-sum-iii) |
