@@ -5,8 +5,7 @@
  */
 var findBestValue = function(arr, target) {
     const n = arr.length
-    arr.sort((a,b)=> a-b)
-    let low=0, high = arr[n-1]
+    let low=0, high = Math.max(...arr)
     let result = 0
     let closestDiff = Infinity
 
