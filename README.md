@@ -41,6 +41,7 @@
 | [0542-01-matrix](https://github.com/marynoroozi/alghorithm/tree/master/0542-01-matrix) |
 | [0658-find-k-closest-elements](https://github.com/marynoroozi/alghorithm/tree/master/0658-find-k-closest-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/marynoroozi/alghorithm/tree/master/1014-k-closest-points-to-origin) |
+| [1232-sum-of-mutated-array-closest-to-target](https://github.com/marynoroozi/alghorithm/tree/master/1232-sum-of-mutated-array-closest-to-target) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/marynoroozi/alghorithm/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
@@ -119,6 +120,7 @@
 | [0502-ipo](https://github.com/marynoroozi/alghorithm/tree/master/0502-ipo) |
 | [0658-find-k-closest-elements](https://github.com/marynoroozi/alghorithm/tree/master/0658-find-k-closest-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/marynoroozi/alghorithm/tree/master/1014-k-closest-points-to-origin) |
+| [1232-sum-of-mutated-array-closest-to-target](https://github.com/marynoroozi/alghorithm/tree/master/1232-sum-of-mutated-array-closest-to-target) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 | [2636-maximum-subsequence-score](https://github.com/marynoroozi/alghorithm/tree/master/2636-maximum-subsequence-score) |
 ## Heap (Priority Queue)
@@ -153,6 +155,7 @@
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/marynoroozi/alghorithm/tree/master/0033-search-in-rotated-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/marynoroozi/alghorithm/tree/master/0658-find-k-closest-elements) |
+| [1232-sum-of-mutated-array-closest-to-target](https://github.com/marynoroozi/alghorithm/tree/master/1232-sum-of-mutated-array-closest-to-target) |
 | [1397-search-suggestions-system](https://github.com/marynoroozi/alghorithm/tree/master/1397-search-suggestions-system) |
 ## Greedy
 |  |
