@@ -31,6 +31,7 @@
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/marynoroozi/alghorithm/tree/master/0033-search-in-rotated-sorted-array) |
 | [0046-permutations](https://github.com/marynoroozi/alghorithm/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/marynoroozi/alghorithm/tree/master/0048-rotate-image) |
 | [0056-merge-intervals](https://github.com/marynoroozi/alghorithm/tree/master/0056-merge-intervals) |
 | [0079-word-search](https://github.com/marynoroozi/alghorithm/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
@@ -76,6 +77,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/marynoroozi/alghorithm/tree/master/0048-rotate-image) |
 | [0079-word-search](https://github.com/marynoroozi/alghorithm/tree/master/0079-word-search) |
 | [0542-01-matrix](https://github.com/marynoroozi/alghorithm/tree/master/0542-01-matrix) |
 ## Backtracking
@@ -178,6 +180,7 @@
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/marynoroozi/alghorithm/tree/master/0048-rotate-image) |
 | [1014-k-closest-points-to-origin](https://github.com/marynoroozi/alghorithm/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
