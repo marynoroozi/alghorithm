@@ -13,6 +13,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/marynoroozi/alghorithm/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/marynoroozi/alghorithm/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/marynoroozi/alghorithm/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/marynoroozi/alghorithm/tree/master/0093-restore-ip-addresses) |
 | [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
@@ -32,6 +33,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/marynoroozi/alghorithm/tree/master/0033-search-in-rotated-sorted-array) |
 | [0046-permutations](https://github.com/marynoroozi/alghorithm/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/marynoroozi/alghorithm/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/marynoroozi/alghorithm/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/marynoroozi/alghorithm/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/marynoroozi/alghorithm/tree/master/0056-merge-intervals) |
 | [0079-word-search](https://github.com/marynoroozi/alghorithm/tree/master/0079-word-search) |
@@ -53,6 +55,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/marynoroozi/alghorithm/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/marynoroozi/alghorithm/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/marynoroozi/alghorithm/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/marynoroozi/alghorithm/tree/master/0139-word-break) |
 | [2413-smallest-number-in-infinite-set](https://github.com/marynoroozi/alghorithm/tree/master/2413-smallest-number-in-infinite-set) |
@@ -120,6 +123,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/marynoroozi/alghorithm/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/marynoroozi/alghorithm/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/marynoroozi/alghorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/marynoroozi/alghorithm/tree/master/0295-find-median-from-data-stream) |
